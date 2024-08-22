@@ -9,6 +9,7 @@ public class Produto {
     private String nome;
     private Double preco;
 
+    //contrutor
     public Produto(String nome, double preco ){
         this.nome = nome;
         this.preco = preco;
