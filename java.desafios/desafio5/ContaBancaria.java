@@ -2,7 +2,7 @@ package desafio5;
 
 public class ContaBancaria {
     private int numeroConta;
-    protected float saldo;
+    private float saldo;
 
     public ContaBancaria(int numeroConta, float saldo){
         this.numeroConta = numeroConta;

@@ -18,7 +18,7 @@ public class ContaPoupanca extends ContaBancaria {
     @Override
     public void rendInfo(){
         super.rendInfo();
-        rend = saldo + (saldo * taxaRend/100);
+        rend = getSaldo() + (getSaldo() * taxaRend/100);
         System.out.println("Saldo depois do rendimento: "+ rend);
         
     }
