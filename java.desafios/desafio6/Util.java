@@ -14,6 +14,6 @@ public class Util {
     public void max(String num1, String num2){
         System.out.println(Integer.parseInt(num1) + Integer.parseInt(num2));
     }
-
+    
     
 }
